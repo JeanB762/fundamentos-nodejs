@@ -17,10 +17,10 @@ const server = http.createServer((request, response) => {
       email: "johndoe@mail.example.com",
     });
 
-    return response.end("criação de usuários");
+    return response.writeHead(201).end("criação de usuários");
   }
 
-  return response.end("Hello World!");
+  return response.writeHead(404).end();
 });
 
 server.listen(3333);
