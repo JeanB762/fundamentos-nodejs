@@ -32,11 +32,16 @@ export const routes = [
       return response.writeHead(201).end("criação de usuários");
     },
   },
+
   {
     method: "DELETE",
     path: buildRoutePath("/users/:id"),
     handler: (request, response) => {
-      return response.end();
+      const { id } = request.params;
+
+      database.delete("users", id);
+
+      return response.writeHead(204).end();
     },
   },
 ];
