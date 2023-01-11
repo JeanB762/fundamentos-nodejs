@@ -1,1 +1,24 @@
-{"users":[{"id":"d743e87e-723a-4184-9151-8f89f4f9733d","name":"John Doe","email":"johndoe@example.com"}]}
+{
+  "users": [
+    {
+      "id": "d743e87e-723a-4184-9151-8f89f4f9733d",
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": "2974fc87-63ac-41f7-8bf8-48efdf407d68",
+      "name": "Doe J.",
+      "email": "doej@example.com"
+    },
+    {
+      "id": "66fe88a4-0e1e-4e59-8dac-245ed19cce33",
+      "name": "JJ",
+      "email": "doej@example.com"
+    },
+    {
+      "id": "3b7745d1-2b53-461f-9666-004f48f65c46",
+      "name": "Mr. Doe",
+      "email": "doe@example.com"
+    }
+  ]
+}
